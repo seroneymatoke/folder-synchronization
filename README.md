@@ -10,7 +10,7 @@ A robust tool designed to mirror the content of one directory (source) into anot
 - **Detailed Logging**: Detailed event logs, including actions on individual files.
 
 ## 🚀 Quick Start
-___
+__
 ### 1. Installation:
 
 #### Prerequisites
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. Usage:
-___
+__
 Run the synchronization tool using:
 
 ```bash
@@ -82,7 +82,7 @@ python src/main.py --source [SOURCE_PATH] --replica [REPLICA_PATH]
 - `--max_workers`: (Optional) Number of threads for parallel processing. Default is system's max possible.
 
 ### 3. 🔧 Running Tests:
-___
+__
 Ensure you have `pytest` installed:
 
 ```bash
@@ -96,7 +96,7 @@ pytest tests/
 ```
 
 ### 4.  📝 Contributing:
-___
+__
 Contributions, issues, and feature requests are welcome! Before making any major changes, please open an issue first to discuss what you'd like to change. Make sure to update tests as appropriate.
 
 ### 5. 📜 License:
