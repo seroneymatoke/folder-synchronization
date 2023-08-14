@@ -1,7 +1,3 @@
-I apologize for the oversight. Let's fix that. Here's a more detailed `README.md` written completely in Markdown for your file synchronization tool:
-
----
-
 # File Synchronization Tool 📂
 
 A robust tool designed to mirror the content of one directory (source) into another (replica). It offers efficient synchronization with data integrity checks and real-time progress feedback.
