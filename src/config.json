@@ -1,0 +1,8 @@
+{
+    "source": "/backup/src",
+    "replica": "/backup/rep",
+    "log_path": "logfile.log",
+    "sync_interval": 60,
+    "max_workers": 4,
+    "logging_level": "INFO"
+}
