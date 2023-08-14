@@ -13,7 +13,7 @@ A robust tool designed to mirror the content of one directory (source) into anot
 
 ### 1. Installation:
 
-####Prerequisites
+#### Prerequisites
 
 - Python 3.6 or newer: Ensure you have a compatible Python version installed. If not, download and install it from [Python's official website](https://python.org).
 - pip: Python's package manager, which usually comes bundled with Python installations. More about pip can be found at the [pip documentation](https://pip.pypa.io/en/stable/).
@@ -26,7 +26,7 @@ cd folder-synchronization
 ```
 
 
-####Set Up a Virtual Environment(optional, but recommended):
+#### Set Up a Virtual Environment(optional, but recommended):
 
 It's a good practice to create a virtual environment for Python projects to manage dependencies cleanly. Here's how you can do it:
 
@@ -53,7 +53,7 @@ It's a good practice to create a virtual environment for Python projects to mana
     source venv/bin/activate
     ```
 
-####Install Required Libraries:
+#### Install Required Libraries:
 
 Install the necessary libraries using `pip`:
 
