@@ -1,0 +1,6 @@
+iniconfig==2.0.0
+packaging==23.1
+pluggy==1.2.0
+pytest==7.4.0
+tdqm==0.0.1
+tqdm==4.66.1
