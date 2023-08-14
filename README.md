@@ -39,7 +39,7 @@ python src/main.py --source [SOURCE_PATH] --replica [REPLICA_PATH]
 - `--source`: Path to the source directory.
 - `--replica`: Path to the replica directory.
 - `--interval`: No of seconds to the next sync.
-- `--log_file`: (Optional) Path to save logs. Default is `./sync.log`.
+- `--log_file`: (Optional) Path to save logs. Default is `sync.log`.
 - `--log_level`: (Optional) Logging level (`INFO`, `DEBUG`, etc.). Default is `INFO`.
 - `--max_workers`: (Optional) Number of threads for parallel processing. Default is system's max possible.
 
