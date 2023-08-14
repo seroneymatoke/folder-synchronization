@@ -13,11 +13,16 @@ A robust tool designed to mirror the content of one directory (source) into anot
 
 ### 1. Installation:
 
+####Prerequisites
+
+- Python 3.6 or newer: Ensure you have a compatible Python version installed. If not, download and install it from [Python's official website](https://python.org).
+- pip: Python's package manager, which usually comes bundled with Python installations. More about pip can be found at the [pip documentation](https://pip.pypa.io/en/stable/).
+
 Clone the repository and navigate to its root directory:
 
 ```bash
-git clone [https://github.com/seroneymatoke]
-cd [folder-synchronization]
+git clone https://github.com/seroneymatoke/folder-synchronization
+cd folder-synchronization
 ```
 
 Install the required dependencies:
