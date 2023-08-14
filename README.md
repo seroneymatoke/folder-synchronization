@@ -25,6 +25,39 @@ git clone https://github.com/seroneymatoke/folder-synchronization
 cd folder-synchronization
 ```
 
+
+####Set Up a Virtual Environment(optional, but recommended):
+
+It's a good practice to create a virtual environment for Python projects to manage dependencies cleanly. Here's how you can do it:
+
+- Install `virtualenv` if you haven't already:
+  ```
+  pip install virtualenv
+  ```
+  More about `virtualenv` can be found at the [official documentation](https://virtualenv.pypa.io/en/latest/).
+
+- Create a virtual environment:
+  ```
+  virtualenv venv
+  ```
+
+- Activate the virtual environment:
+
+  - On Windows:
+    ```
+    .\venv\Scripts\activate
+    ```
+
+  - On macOS and Linux:
+    ```
+    source venv/bin/activate
+    ```
+
+####Install Required Libraries:
+
+Install the necessary libraries using `pip`:
+
+
 Install the required dependencies:
 
 ```bash
@@ -48,7 +81,7 @@ python src/main.py --source [SOURCE_PATH] --replica [REPLICA_PATH]
 - `--log_level`: (Optional) Logging level (`INFO`, `DEBUG`, etc.). Default is `INFO`.
 - `--max_workers`: (Optional) Number of threads for parallel processing. Default is system's max possible.
 
-## 🔧 Running Tests:
+### 3. 🔧 Running Tests:
 
 Ensure you have `pytest` installed:
 
@@ -62,11 +95,11 @@ Then, from the project's root directory:
 pytest tests/
 ```
 
-## 📝 Contributing:
+### 4.  📝 Contributing:
 
 Contributions, issues, and feature requests are welcome! Before making any major changes, please open an issue first to discuss what you'd like to change. Make sure to update tests as appropriate.
 
-## 📜 License:
+### 5. 📜 License:
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
