@@ -89,7 +89,8 @@ def sync_folders(source, replica, max_workers=None):
         os.makedirs(replica)
 
     # Calculate the number of files in the source for the progress bar.
-    total_files = sum([len(files) for file, file, files in os.walk(source)])
+    # To explain _, _ it means we don't care about what's in the folder just gather everything and execute since we haven't defined a pattern for exclusion
+    total_files = sum([len(files) for _, _, files in os.walk(source)])
 
     # Copying files from source to replica with a progress bar.
     with tqdm(total=total_files, desc="Syncing", unit="file") as pbar:
